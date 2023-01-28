@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Slider1 {
+    width: 80%;
+    margin: 100px auto;
+  }
+  .Slider1 .Popular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 50vw;
+  }
+  .Slider1 .Popular .line {
+    width: 235px;
+    border-bottom: 1px solid #8b8a88;
+    height: 0;
+  }
+  .Slider1 .Popular .PopularWines {
+    font-family: Gabriola;
+    font-size: 40px;
+    color: #a40d30;
+  }
+  .Slider1 .slick-arrow::before {
+    background: #F4F3F1;
+    color: #8B8A88;
+  }
+  .Slider1 .slider1_item {
+    width: 81% !important;
+    height: 352px !important;
+    background: #fff;
+    margin-top: 30px;
+    height: auto ;
+  }
+  .Slider1 .slider1_title {
+    font-family: Gabriola;
+    font-size: 24px;
+    color: #A40D30;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+  }
+  .Slider1 .slider1_alcolitr {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .Slider1 .slider1_alcolitr p {
+    font-family: Futura Bk BT;
+    font-size: 14px;
+    color: #8B8A88;
+  }
+  .Slider1 .slider1_item .image {
+    width: 172px;
+    height: 186px;
+    margin: auto;
+  }
+  .Slider1 .slider1_item .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .Slider1 .slider1_item .star_block {
+    text-align: center;
+  }
+  .Slider1 .slider1_item .star_block .star {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .Slider1 .slider1_item .starUnderline {
+    width: 85%;
+    height: 0;
+    border-bottom: 1px solid #CCCCCC;
+    margin: auto;
+  }
+  .Slider1 .slider1_item .sale {
+    display: flex;
+    align-items: baseline;
+    margin-left: 7%;
+  }
+  .Slider1 .slider1_item .sale p {
+    font-family: Futura Bk BT;
+    font-size: 14px;
+    text-decoration: line-through;
+  }
+  .Slider1 .slider1_item .sale .salePercent {
+    width: 28px;
+    height: 19px;
+    /* background: #DA3D4E;  */
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    /* margin-left: 1%; */
+  }
+  .Slider1 .slider1_item .priceShopping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+  }
+  .Slider1 .slider1_item .priceShopping .shoppingCard {
+  color: #A40D30;
+  }
+  .Slider1 .slider1_item .priceShopping .price {
+    font-family: Futura Bk BT;
+    font-size: 20px;
+    font-weight: 400;
+  }

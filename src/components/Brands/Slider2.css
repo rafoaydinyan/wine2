@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Slider2 {
+      width: 80%;
+      margin: 100px auto;
+    }
+    .Slider2 .Popular {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: auto;
+      width: 50vw;
+    }
+    .Slider2 .Popular .line {
+      width: 210px;
+      border-bottom: 1px solid #8b8a88;
+      height: 0;
+    }
+    .Slider2 .Popular .PopularWines {
+      font-family: Gabriola;
+      font-size: 40px;
+      color: #a40d30;
+    }
+    .Slider2 .slick-arrow::before {
+      background: #F4F3F1;
+      color: #8B8A88;
+    }
+    .Slider2 .slider2_item {
+      width: 81% !important;
+      height: 352px;
+      background: #fff;
+      margin-top: 30px;
+      height: auto ;
+    }
+    .Slider2 .slider2_title {
+      font-family: Gabriola;
+      font-size: 24px;
+      color: #A40D30;
+      font-weight: 600;
+      margin: auto;
+      text-align: center;
+    }
+    .Slider2 .slider2_alcolitr {
+      width: 35%;
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+    .Slider2 .slider2_alcolitr p {
+      font-family: Futura Bk BT;
+      font-size: 14px;
+      color: #8B8A88;
+    }
+    .Slider2 .slider2_item .image {
+      width: 172px;
+      height: 186px;
+      margin: auto;
+    }
+    .Slider2 .slider2_item .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .Slider2 .slider2_item .star_block {
+      text-align: center;
+    }
+    .Slider2 .slider2_item .star_block .star {
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .Slider2 .slider2_item .starUnderline {
+      width: 85%;
+      height: 0;
+      border-bottom: 1px solid #CCCCCC;
+      margin: auto;
+    }
+    .Slider2 .slider2_item .sale {
+      display: flex;
+      align-items: baseline;
+      margin-left: 7%;
+    }
+    .Slider2 .slider2_item .sale p {
+      font-family: Futura Bk BT;
+      font-size: 14px;
+      text-decoration: line-through;
+    }
+    .Slider2 .slider2_item .sale .salePercent {
+      width: 28px;
+      height: 19px;
+      /* background: #DA3D4E;  */
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      /* margin-left: 1%; */
+    }
+    .Slider2 .slider2_item .priceShopping {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 85%;
+      margin: auto;
+    }
+    .Slider2 .slider2_item .priceShopping .shoppingCard {
+    color: #A40D30;
+    }
+    .Slider2 .slider2_item .priceShopping .price {
+      font-family: Futura Bk BT;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .sliderEnd {
+      width: 100%;
+      height: 260px;
+    }
+    .box {
+      background-image: radial-gradient(ellipse farthest-corner at -345% 250%, #ff0 0%, #f00 80%, #F5F5F5 80%);
+    }
